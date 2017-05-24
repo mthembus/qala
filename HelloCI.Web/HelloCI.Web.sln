@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3CD8B930-E311-443B-BF11-7DE943E982BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{296C6798-8C32-435C-829E-94735904384A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloCI.Web", "src\HelloCI.Web\HelloCI.Web.xproj", "{D0C59E20-F801-4D00-9F51-D2245097F9B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0C59E20-F801-4D00-9F51-D2245097F9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C59E20-F801-4D00-9F51-D2245097F9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C59E20-F801-4D00-9F51-D2245097F9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C59E20-F801-4D00-9F51-D2245097F9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0C59E20-F801-4D00-9F51-D2245097F9B4} = {3CD8B930-E311-443B-BF11-7DE943E982BF}
+	EndGlobalSection
+EndGlobal
